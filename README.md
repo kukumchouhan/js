@@ -214,4 +214,128 @@ OUTPUT:
 ![image](https://github.com/kukumchouhan/day1/assets/110415227/f8cb801d-4583-4125-9778-bfa4165a044c)
 
 
+day2:
+//Functions in JavaScript
+
+// let result = mul(5,10)
+// console.log(result)
+// function mul(a,b){
+//     return a*b
+// }    
+
+// let result = mul(5,10)
+// console.log(result)
+// function mul(a,b,c=0){
+//     return a*b*c
+// }  
+
+
+//Arrow Function
+// multiplication =(a,b)=>{
+//     return a*b
+// }
+
+// console.log(multiplication(5,10))
+
+// multiplication =(a,b)=>
+//       a*b
+
+// console.log(multiplication(5,10))
+
+//Spread operator
+// const arr = [1,2,3,4,5]
+// const arr1 = [...arr]
+// console.log(arr1)
+
+// const arr = [1,2,3,4,5]
+// const arr1 = [...arr]
+// const[one,...rest] = arr
+// console.log(arr,arr1,one,rest)
+
+// File System:-(CRUD Operation)
+// 1. create file:- (a) Append
+//                  (b) Open
+//                  (c) write
+// 2. Read file (Read File())
+// 3. update File (a) Append
+//                (b) write 
+// 4. Delete (unlink())
+
+// var fs = require('fs');
+// //Append File
+// fs.appendFile('file.txt','this is file1',(err)=>{
+//     if(err) throw err
+//      console.log('file1 created')
+// })
+
+// // write file
+// fs.writeFile('file2.txt','this is file2',(err)=>{
+//             if(err) throw err
+//             console.log('file2 is created')
+// })
+
+// // open file
+// fs.open('file3.txt','w',(err)=>{
+//     if(err) throw err
+//     console.log('file3 created!')
+// })
+
+//Read =>readFile()
+
+// fs.readFile('file1.text', 'utf-8',(err,data)=>{
+//     if (err) throw err
+
+//     console.log(data)
+// })
+
+// //update file 
+// appendFile()
+// var fs = require('fs');
+// fs.appendFile('file.txt','file updated',(err)=>{
+//     if(err) throw err
+//     console.log('fileupdateed!')
+// })
+
+//writeFile()
+// var fs = require('fs');
+//  fs.appendFile('file2.txt','file2 updated',(err)=>{
+//      if(err) throw err
+//      console.log('file2 updateed!')
+//  })
+
+//Delete (unlink)
+// var fs = require('fs');
+// fs.unlink('file3.txt',(err)=>{
+//     if(err) throw err
+//     console.log('file3 is deleted')
+// })
+
+//Rename
+var fs = require('fs')
+fs.rename('file.txt','renamed file.txt',(err)=>{
+if (err) throw err
+console.log('file is renamed')
+})
+OUTPUT:
+![image](https://github.com/kukumchouhan/day1/assets/110415227/40c1ad30-164f-4395-90f6-4ffbd8d11ae0)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/e4d48b2e-849c-404b-a9e7-3b5af52847e9)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/f5bd1b1a-e9e9-46f1-a975-b130b8c12040)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/a8641e82-d846-45c2-8b1e-af6685a93e9b)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/a036271a-12f7-4490-9c4e-ea972862446e)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/882e9496-6c09-4074-a0b3-c00259e8a312)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/c25da9ec-7614-4c1c-9463-2996b94fd9de)
+
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/be934fa9-f3f5-48dd-80fa-fbc61725ccfb)
+
+![image](https://github.com/kukumchouhan/day1/assets/110415227/8363ce11-1659-4e38-aecf-4e0f6d6752f0)
+
+
+
 
